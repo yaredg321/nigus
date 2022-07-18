@@ -1,4 +1,22 @@
-.App {
+#div{
+  width: 50%;
+  height: 60%;
+  display: block;
+  text-align: center;
+  border: black double 3px;
+  align-items: center;
+  
+}
+#form{
+  margin-top: 100px;
+  display: block;
+}
+#fo{
+  margin-bottom: 40px;
+  
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +53,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
