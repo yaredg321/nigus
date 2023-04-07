@@ -25,7 +25,7 @@ function App() {
     let filtered = allProducts.filter((product)=>{
       let productDate = new Date(product["createdAt"]);
       return(productDate>= date.selection.startDate &&
-        productDate<= date.selection.endDate);
+        productDate<= date.selection.endDate)
     })
     setStartDate(date.selection.startDate);
     setEndDate(date.selection.endDate);
