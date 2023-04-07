@@ -1,56 +1,272 @@
-#div{
-  width: 50%;
-  height: 60%;
-  display: block;
+/* .rdrStaticRangeLabel{
+  background-color: blue;
+} */
+/* .date{ */
+  /* background-color: blueviolet;
+} */
+
+.App{
+  display: flex;
+  /* justify-content: space-between; */
+
+  
+}
+.list{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  /* gap: 20px; */
+
+
+}
+tr td {
+  background-color: #ccc;
+ 
+  width: 150px;
+}
+.tr{
+  display: flex;
+  margin-bottom: 10px;
+  
+  
+}
+th{
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 150px;
+
+
+  /* margin: auto; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* width: 100px; */
+}
+
+
+
+
+
+
+
+/* .inputs :hover{ */
+
+
+.App {
   text-align: center;
-  border: black double 3px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
   align-items: center;
+  flex-direction: column;
   
-}
-#form{
-  margin-top: 100px;
-  display: block;
-}
-#fo{
-  margin-bottom: 40px;
   
 }
 
-/* .App {
-  text-align: center;
+.conteiner{
+ 
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+  padding-bottom: 100px;
+  
+
+}
+.all{
+  padding-left: 200px;
+}
+.products{
+  display: inline;
+  margin: 10px;
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: #000000 1px solid;
+  margin-bottom: 10px;
+ 
+
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  color: #ffffff;
+  background-color: blue;
+  font: weight 1em;;
+  
+  font: 1em sans-serif;
+}
+.inputData {
+  width: 90%;
+  color: blue;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  
+  
+  
+  
+
+}
+.inputs:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputs{
+ display: flex;
+ border-radius: 5px;
+ justify-content: space-between;
+ align-items: center;
+ width: 64%;
+ height: 80px;
+ background-color: #ffffff;
+ margin: 10px;
+box-shadow: #000000 1px ;
+box-shadow: 1px  1px 1px 0px #000000;
+padding: 10px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+.header {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #00000050;
+}
+
+.header p {
+  color: aqua;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.products-container {
+  width: 100%;
+  padding: 30px;
+  background-color: #e8e8e8;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product {
+  background-color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  box-shadow: 1px 1px 1px 0px #000000;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 10px 20px;
+  transition: all .3s ease-in;
+  margin-top: 10px;
+}
+
+.product:hover {
+  transform: scale(1.02);
+}
+
+.purchase {
+  padding: 10px 30px;
+  background-color: rgb(33, 84, 203);
+  color: #ffffff;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.create-container {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, .4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 50%;
+  padding: 30px;
+  height: 40%;
+  background-color: #ffffff;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+input {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+ /* <div style={{postion:'absolut'}}>sdnbdsb</div> */
+/* .dd{
+  display: flex; */
+
+  /*hula sitigemir endezi adirigeh mokir*/
+
+/*  
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-self: center;
+  flex-direction: column; */
+  /*aderader yemiyasetekakil new  wedetach weyim wedegon*/
+/*   
+  width: 1000px; */
+  /*width and heigt be px yeminisetey jesitify ena align atem endisera new*/
+  /* height: 1000px; */
+ 
+/* } */
+/*.yy{
+ 
 
-.App-link {
-  color: #61dafb;
-}
+  display: flex;
+  flex-direction: column;
+ 
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-self: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+  
+  background-color: #000000;
+  color: #ffffff;
+  
+
+
+}
+*/

@@ -1,0 +1,11 @@
+{
+  "status": "OK",
+  "code": 200,
+  "total": 4,
+  "data": [
+    { "count": 9535932, "title": "consequatur" },
+    { "count": 5, "title": "aliquam" },
+    { "count": 7830627, "title": "dolores" },
+    { "count": 31, "title": "deserunt" }
+  ]
+}
